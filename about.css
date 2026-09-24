@@ -1,0 +1,135 @@
+.container{
+    width: 100%;
+    background-color: rgb(9, 9, 37);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.logout button{
+    color: white;
+    background-color: orangered;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 4px;
+}
+.icon a:hover{
+    color: yellow;
+}
+.logout button:hover{
+    color: yellow;
+    background-color: rgb(149, 218, 86);
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+
+}
+.aboutus-text{
+    width: 800px;
+}
+.aboutus-text h1{
+    font-size: 45px;
+    color: rgb(9, 9, 37);
+    margin: 10px;
+    width: 800px;
+}
+.aboutus-text p{
+    font-size: 20px;
+    color: #555;
+    margin: 10px;
+    width: 680px;
+   
+}
+
+.aboutus-image img{
+    width: 450px;
+    border-radius: 15px;
+}
+.sub{
+    width: 100%;
+    text-align: center;
+}
+.sub p{
+    margin-top: 18px;
+    margin-bottom: 30px;
+   
+}
+.box{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+     
+}
+.card{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(190, 114, 114);
+    margin-bottom: 30px;
+    
+}
+.card img{
+    width: 50px;
+    padding-top: 20px;
+}
+.card h3,p{
+    padding-top: 20px;
+}
+.card:hover{
+    background-color: rgb(236, 197, 197);
+}
+.team{
+    width: 100%;
+    text-align: center; 
+}
+.photo{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.member img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.member h4{
+    margin-top: 14px;
+    text-align: center;
+}
+.member p{
+    margin-bottom: 50px;
+    text-align: center;
+}

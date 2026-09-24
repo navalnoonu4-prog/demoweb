@@ -1,0 +1,145 @@
+.container{
+    width: 100%;
+    background-color: rgb(9, 9, 37);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.logout button{
+    color: white;
+    background-color: orangered;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+.icon a:hover{
+    color: yellow;
+}
+.logout button:hover{
+    color: yellow;
+    background-color: rgb(211, 87, 42);
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.hero-text{
+    width: 700px;
+}
+.hero-text h1{
+    font-size: 45px;
+    color: rgb(9, 9, 37);
+}
+.hero-text p{
+    font-size: 18px;
+    color: #555;
+    
+}
+.btn{
+    color: white;
+    background-color: orangered;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(211, 87, 42);
+}
+.hero-image img{
+    width: 450px;
+    border-radius: 15px;
+}
+.sub{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box{
+    display: flex;
+    width: 900px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 50px;
+    margin: auto;
+    
+     
+}
+.card{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(190, 114, 114);
+    margin-bottom: 30px;
+    
+}
+.card img{
+    width: 65px;
+    padding-top: 20px;
+}
+.card h3,p{
+    padding-top: 20px;
+}
+.card:hover{
+    background-color: rgb(236, 197, 197);
+}
+.footer{
+    width: 100%;
+    background-color:rgb(9, 9, 37) ;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+.footer button{
+    color: white;
+    background-color: orangered;
+    width: 130px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.footer button:hover{
+    background-color: rgb(211, 87, 42);
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
